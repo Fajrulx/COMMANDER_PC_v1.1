@@ -60,7 +60,7 @@ if [ "$mode" == "1" ]; then
     echo -e "${HIJAU}✓ Izin berhasil diatur.${NETRAL}"
     
     echo -e "${KUNING}→ Membuat symlink ke /usr/local/bin/commander...${NETRAL}"
-    ln -sf /opt/Commander_PC/Commander /usr/local/bin/commander
+    ln -sf /opt/Commander_PC/Commander /usr/local/bin/Commander
     echo -e "${HIJAU}✓ Symlink berhasil dibuat.${NETRAL}"
     
     echo -e "${KUNING}→ Membersihkan file node (jika ada)...${NETRAL}"
